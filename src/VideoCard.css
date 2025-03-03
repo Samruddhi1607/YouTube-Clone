@@ -1,0 +1,22 @@
+.videocard{
+    margin-bottom: 40px;
+    width: 250px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.videocard:hover{
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+
+}
+
+.video-thumbnail{
+    height: 140px;
+    width: 250px;
+}
+.video-info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 20px;
+
+}

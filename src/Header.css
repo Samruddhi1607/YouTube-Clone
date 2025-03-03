@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+.sharp-icon:hover{
+    background-color:lightgray;
+    color: red;
+
+}
+
+.header-logo{
+    height: 50px;
+    object-fit: contain;
+
+}
+.header-left{
+    
+        display: flex;
+        align-items: center;
+    
+    
+}
+.header-input{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.header-inputButtons:hover{
+     background-color: lightgrey;
+     cursor: pointer;
+     /* margin-left: 2px solid gray; */
+
+}
+.header-inputButton{
+    width: 30px !important;
+    background-color:#fafafa;
+    border-left: 2px solid lightgray;
+   
+
+}
+.header-icons{
+
+    margin-right:2px;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+
+}
+.header-input > input{
+    flex: 1;
+    border: none;
+}
+.header-icons:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
